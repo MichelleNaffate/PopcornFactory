@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris"
+    tools:context=".Catalogo2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Peliculas"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-58dp"
+        android:background="@drawable/linea" />
+
+    <GridView
+        android:id="@+id/gridview"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+android:layout_marginTop="40dp"
+
+        android:numColumns="3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp"
+        android:text="Series"
+        android:textAlignment="textEnd"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="-47dp"
+        android:background="@drawable/linea" />
+
+    <GridView
+        android:id="@+id/gridseries"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:numColumns="3" />
+
+
+</LinearLayout>
