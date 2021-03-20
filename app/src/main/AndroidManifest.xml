@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practica06_PopcornFactory">
-        <activity android:name=".DetallePelicula2"></activity>
+        <activity android:name=".ConfirmarCompra"></activity>
+        <activity android:name=".SeatSelection" />
+        <activity android:name=".DetallePelicula2" />
         <activity android:name=".Catalogo2" />
-        <activity android:name=".Registrar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
